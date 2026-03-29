@@ -26,7 +26,7 @@ export default function Home() {
       <ProductsSection />
       <HighlightsGrid />
       <StatementBreak
-        text="Persönlich ausgewählt. Technisch geprüft. Ohne Kompromisse."
+        lines={["Persönlich ausgewählt.", "Technisch geprüft.", "Ohne Kompromisse."]}
         image="/images/behind.jpeg"
       />
       <div className="max-w-[1280px] mx-auto px-10 max-tablet:px-5">

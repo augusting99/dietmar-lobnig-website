@@ -5,10 +5,12 @@ import FadeIn from "../FadeIn";
 
 export default function StatementBreak({
   text,
+  lines,
   image,
   subtext,
 }: {
-  text: string;
+  text?: string;
+  lines?: string[];
   image?: string;
   subtext?: string;
 }) {
@@ -20,10 +22,21 @@ export default function StatementBreak({
           <div className="absolute inset-0 bg-black/40" />
         </>
       )}
-      <FadeIn className={`relative z-[2] max-w-[900px] px-10 max-tablet:px-5`}>
-        <p className="text-[clamp(24px,4vw,56px)] font-extralight text-white leading-[1.2] -tracking-[0.5px]">
-          {text}
-        </p>
+      <FadeIn className="relative z-[2] w-full max-w-[1280px] mx-auto px-10 max-tablet:px-5 text-center">
+        {text && (
+          <p className="font-[family-name:var(--font-display)] text-[clamp(20px,3vw,42px)] font-normal text-white/85 leading-[1.3] -tracking-[0.06em] uppercase">
+            {text}
+          </p>
+        )}
+        {lines && (
+          <div className="flex flex-col gap-2">
+            {lines.map((line, i) => (
+              <p key={i} className="font-[family-name:var(--font-display)] text-[clamp(16px,2vw,28px)] font-normal text-white leading-[1.2] -tracking-[0.06em] uppercase">
+                {line}
+              </p>
+            ))}
+          </div>
+        )}
         {subtext && (
           <span className="block mt-6 text-sm tracking-[2px] uppercase text-white/40">{subtext}</span>
         )}

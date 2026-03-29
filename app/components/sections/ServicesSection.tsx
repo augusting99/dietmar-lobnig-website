@@ -29,7 +29,7 @@ export default function ServicesSection() {
       <FadeIn blur>
         <div className="mb-20 max-tablet:mb-14">
           <span className="block text-[10px] font-semibold tracking-[4px] uppercase text-text-muted mb-4">Unsere Geschichte</span>
-          <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight -tracking-[0.5px] leading-[1.2]">
+          <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight -tracking-[0.5px] leading-none">
             Seit 1996. Derselbe Anspruch.
           </h2>
         </div>

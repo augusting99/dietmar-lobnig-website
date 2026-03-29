@@ -94,7 +94,7 @@ export default function ProductsSection() {
           transition: "opacity 1s, transform 1s",
         }}
       >
-        <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight mb-5 -tracking-[0.5px] leading-[1.2]">Top Fahrzeuge</h2>
+        <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight mb-5 -tracking-[0.5px] leading-none">Top Fahrzeuge</h2>
         <p className="text-[15px] text-text-secondary max-w-[520px] leading-[1.8]">Jedes dieser Fahrzeuge wurde persönlich ausgewählt, geprüft und aufbereitet.</p>
       </div>
 

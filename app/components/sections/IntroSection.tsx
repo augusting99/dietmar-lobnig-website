@@ -22,7 +22,7 @@ export default function IntroSection() {
         <FadeIn direction="right" blur delay={0.15}>
           <div>
             <span className="block text-[10px] font-semibold tracking-[4px] uppercase text-text-muted mb-6">Seit 1996</span>
-            <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight mb-6 -tracking-[0.5px] leading-[1.2] text-white">
+            <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight mb-6 -tracking-[0.5px] leading-none text-white">
               Vertrauen statt Versprechen.
             </h2>
             <p className="text-[15px] text-text-secondary leading-[1.8]">

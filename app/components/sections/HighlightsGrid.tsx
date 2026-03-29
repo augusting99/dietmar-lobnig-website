@@ -63,7 +63,7 @@ export default function HighlightsGrid() {
       <div className="max-w-[1280px] mx-auto">
         <div className={`mb-4 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <span className="block text-[10px] font-semibold tracking-[4px] uppercase text-text-muted mb-4">Vom Ankauf zum Verkauf</span>
-          <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight -tracking-[0.5px] leading-[1.2] mb-3">
+          <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight -tracking-[0.5px] leading-none mb-3">
             Der Weg jedes Fahrzeugs.
           </h2>
           <p className="text-[15px] text-text-secondary max-w-[520px] leading-[1.8]">

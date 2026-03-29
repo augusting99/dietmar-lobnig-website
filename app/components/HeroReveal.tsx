@@ -14,7 +14,7 @@ export default function HeroReveal() {
 
   return (
     <div className="hero-reveal" ref={ref}>
-      <h1 className="hero-reveal-text font-[family-name:var(--font-display)] text-[28px] mobile:text-[clamp(30px,8vw,48px)] tablet:text-[clamp(36px,5.5vw,88px)] font-normal leading-[1.05] text-white tracking-[0.04em] uppercase">
+      <h1 className="hero-reveal-text font-[family-name:var(--font-display)] text-[22px] mobile:text-[clamp(24px,6vw,36px)] tablet:text-[clamp(28px,3.5vw,52px)] font-normal leading-[1] text-white/85 -tracking-[0.06em] uppercase">
         Dietmar Lobnig
       </h1>
       <p className="hero-reveal-btn mt-6 text-[clamp(14px,1.5vw,18px)] text-white/50 font-light leading-[1.6]">

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, Orbitron } from "next/font/google";
-
+import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const inter = Inter({
@@ -9,10 +9,9 @@ const inter = Inter({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const orbitron = Orbitron({
+const sevenDays = localFont({
+  src: "../public/7days.ttf",
   variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -28,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <body className={`${inter.variable} ${orbitron.variable}`}>
+      <body className={`${inter.variable} ${sevenDays.variable}`}>
         {children}
       </body>
     </html>

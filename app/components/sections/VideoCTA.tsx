@@ -19,19 +19,7 @@ export default function VideoCTA() {
 
   return (
     <div ref={ref} className="relative h-[80vh] min-h-[500px] flex items-center justify-center text-center overflow-hidden">
-      {/* Background video */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-        style={{ filter: "grayscale(40%) brightness(0.35) contrast(1.1)" }}
-      >
-        <source src="/videos/showroom.mp4" type="video/mp4" />
-      </video>
-
-      {/* Fallback image if no video */}
+      {/* Background image */}
       <div className="absolute inset-0 bg-[url('/images/g_class.jpeg')] bg-cover bg-center" style={{ filter: "grayscale(40%) brightness(0.3) contrast(1.1)" }} />
       <div className="absolute inset-0 bg-black/50" />
 
@@ -43,7 +31,7 @@ export default function VideoCTA() {
         style={{ transitionTimingFunction: "var(--ease-out)" }}
       >
         <span className="block text-[10px] font-semibold tracking-[4px] uppercase text-white/40 mb-6">Ihr nächstes Auto wartet</span>
-        <h2 className="text-[clamp(32px,5vw,64px)] font-extralight text-white leading-[1.1] -tracking-[0.5px] mb-6">
+        <h2 className="font-[family-name:var(--font-display)] text-[clamp(16px,2vw,28px)] font-normal text-white/85 leading-[1.2] -tracking-[0.06em] uppercase mb-6">
           Interessiert?
         </h2>
         <p className="text-base text-white/50 leading-[1.7] max-w-[500px] mx-auto mb-10">

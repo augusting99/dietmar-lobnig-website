@@ -15,7 +15,7 @@ export default function ContactSection() {
         <div className="grid grid-cols-[1fr_1.2fr] max-tablet:grid-cols-1 gap-20 max-tablet:gap-12 items-start">
           <FadeIn direction="left" blur>
             <div>
-              <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight mb-5 -tracking-[0.5px] leading-[1.2]">Schreiben Sie uns.</h2>
+              <h2 className="text-[clamp(28px,3.5vw,48px)] font-extralight mb-5 -tracking-[0.5px] leading-none">Schreiben Sie uns.</h2>
               <p className="text-[15px] text-text-secondary max-w-[520px] leading-[1.8] mb-10">Interesse an einem Fahrzeug oder eine Frage? Wir melden uns innerhalb von 24 Stunden.</p>
               <div className="grid gap-6">
                 {details.map((d) => (
