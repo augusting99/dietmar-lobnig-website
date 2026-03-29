@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vereinbarung - Dietmar Lobnig Website</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+      padding: 48px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+      color: #111;
+    }
+    .subtitle {
+      color: #666;
+      font-size: 0.95rem;
+      margin-bottom: 36px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #eee;
+    }
+    h2 {
+      font-size: 1.15rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #333;
+      margin-bottom: 16px;
+      margin-top: 32px;
+    }
+    ul {
+      list-style: none;
+      margin-bottom: 24px;
+    }
+    ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #f0f0f0;
+      padding-left: 20px;
+      position: relative;
+    }
+    ul li::before {
+      content: "\2713";
+      position: absolute;
+      left: 0;
+      color: #2a9d2a;
+      font-weight: bold;
+    }
+    .exclusion {
+      background: #fafafa;
+      border-left: 3px solid #ccc;
+      padding: 14px 18px;
+      margin: 16px 0 24px;
+      color: #555;
+      font-size: 0.95rem;
+    }
+    .costs {
+      background: #f8faf8;
+      border: 1px solid #e0e8e0;
+      border-radius: 8px;
+      padding: 24px;
+      margin-top: 16px;
+    }
+    .cost-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #eef2ee;
+    }
+    .cost-row:last-child {
+      border-bottom: none;
+      padding-top: 12px;
+      margin-top: 4px;
+      border-top: 2px solid #ccc;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .cost-label { color: #444; }
+    .cost-value { font-weight: 600; }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .container { box-shadow: none; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Vereinbarung</h1>
+    <p class="subtitle">Dietmar Lobnig - Website Projekt</p>
+
+    <h2>Inkludierte Leistungen</h2>
+    <ul>
+      <li>ERP-Anbindung (TinaCMS) + Einschulung</li>
+      <li>Auto-Seite mit Suchfilter</li>
+      <li>Auto-Seite Detail</li>
+      <li>Ankaufseite (SEO optimiert)</li>
+      <li>Verkaufseite (SEO optimiert)</li>
+      <li>Finanzierung-Seite (SEO optimiert)</li>
+      <li>Impressum</li>
+      <li>Datenschutz</li>
+      <li>Logos neu als SVG in Schwarz und Weiss</li>
+    </ul>
+
+    <h2>Ausschluss</h2>
+    <div class="exclusion">
+      Fuer alle nicht ausgemachten Sachen wird nichts uebernommen.
+    </div>
+
+    <h2>Kosten</h2>
+    <div class="costs">
+      <div class="cost-row">
+        <span class="cost-label">Anzahlung</span>
+        <span class="cost-value">1.000 EUR</span>
+      </div>
+      <div class="cost-row">
+        <span class="cost-label">Restbetrag</span>
+        <span class="cost-value">1.750 EUR</span>
+      </div>
+      <div class="cost-row">
+        <span class="cost-label">Gesamt</span>
+        <span class="cost-value">2.750 EUR</span>
+      </div>
+    </div>
+
+    <h2>Servicevereinbarung</h2>
+    <div class="costs">
+      <div class="cost-row">
+        <span class="cost-label">Mail, Sicherheitsupdates, Speicherplatz Bilder</span>
+        <span class="cost-value">20 EUR / Monat</span>
+      </div>
+      <div class="cost-row">
+        <span class="cost-label">Abrechnung</span>
+        <span class="cost-value">Jaehrlich (240 EUR/Jahr)</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
