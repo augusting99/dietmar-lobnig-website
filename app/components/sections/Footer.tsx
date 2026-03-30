@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import FadeIn from "../FadeIn";
 
 export default function Footer() {
@@ -7,7 +8,9 @@ export default function Footer() {
       <FadeIn distance={20}>
       <div className="grid grid-cols-[2fr_1fr_1fr_1fr] max-tablet:grid-cols-2 max-mobile:grid-cols-1 gap-12 max-w-[1280px] mx-auto mb-15">
         <div>
-          <span className="font-[family-name:var(--font-display)] text-2xl tracking-[0.15em] mb-4 block text-white">DL</span>
+          <div className="relative w-[140px] h-[140px] mb-4">
+            <Image src="/dl_logo_wei%C3%9F.png" alt="DL Logo" fill className="object-contain" />
+          </div>
           <p className="text-sm text-text-muted leading-[1.8] max-w-[320px]">Dietmar Lobnig GmbH — Ihr verlässlicher Partner für Gebrauchtwagen in Klagenfurt seit 1996.</p>
         </div>
         <div>
