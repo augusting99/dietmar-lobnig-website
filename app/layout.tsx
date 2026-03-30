@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import EntranceLoader from "./components/EntranceLoader";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body className={`${inter.variable} ${sevenDays.variable}`}>
+        <EntranceLoader />
         {children}
       </body>
     </html>

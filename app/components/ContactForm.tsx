@@ -46,9 +46,6 @@ export default function ContactForm() {
       </div>
       <button type="submit" className="w-full inline-flex items-center justify-center gap-2.5 py-3.5 px-8 bg-white text-[#080808] font-semibold text-xs tracking-[1.5px] uppercase border-none cursor-pointer transition-all duration-400 hover:bg-[#e0e0e0] hover:-translate-y-0.5" style={{ transitionTimingFunction: "var(--ease)" }}>
         Nachricht senden
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
-        </svg>
       </button>
     </form>
   );

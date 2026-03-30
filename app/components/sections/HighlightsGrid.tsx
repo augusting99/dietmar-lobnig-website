@@ -73,8 +73,8 @@ export default function HighlightsGrid() {
 
         <div className={`flex flex-col gap-4 mt-14 transition-all duration-1000 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           {/* Row 1: Ankauf — finding & buying the car */}
-          <div className="grid grid-cols-1 tablet:grid-cols-12 gap-4 min-h-[520px]">
-            <div className="tablet:col-span-7">
+          <div className="grid grid-cols-1 tablet:grid-cols-12 gap-4 tablet:min-h-[520px]">
+            <div className="tablet:col-span-7 h-[280px] tablet:h-auto">
               <Card
                 image="/images/behind.jpeg"
                 alt="Ankauf"
@@ -88,37 +88,37 @@ export default function HighlightsGrid() {
                 alt="Prüfung"
                 label="Prüfung"
                 title="Technik, Historie, Zustand — nichts wird ausgelassen"
-                height="h-[200px] tablet:h-1/2"
+                height="h-[280px] tablet:h-1/2"
               />
               <Card
                 image="/images/black_mercedes.jpeg"
                 alt="Aufbereitung"
                 label="Aufbereitung"
                 title="Professionell aufbereitet, innen wie außen"
-                height="h-[200px] tablet:h-1/2"
+                height="h-[280px] tablet:h-1/2"
               />
             </div>
           </div>
 
           {/* Row 2: Verkauf — selling to the customer */}
-          <div className="grid grid-cols-1 tablet:grid-cols-12 gap-4 min-h-[520px]">
+          <div className="grid grid-cols-1 tablet:grid-cols-12 gap-4 tablet:min-h-[520px]">
             <div className="tablet:col-span-5 flex flex-col gap-4">
               <Card
                 image="/images/g_class.jpeg"
                 alt="Beratung"
                 label="Beratung"
                 title="Ehrliche Beratung — auch wenn wir mal Nein sagen"
-                height="h-[200px] tablet:h-1/2"
+                height="h-[280px] tablet:h-1/2"
               />
               <Card
                 image="/images/hero.jpeg"
                 alt="Finanzierung"
                 label="Finanzierung"
                 title="Kredit, Leasing oder bar — flexibel und fair kalkuliert"
-                height="h-[200px] tablet:h-1/2"
+                height="h-[280px] tablet:h-1/2"
               />
             </div>
-            <div className="tablet:col-span-7">
+            <div className="tablet:col-span-7 h-[280px] tablet:h-auto">
               <Card
                 image="/images/black_mercedes.jpeg"
                 alt="Übergabe"

@@ -1,16 +1,24 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 16);
+    const handleResize = () => setIsMobile(window.innerWidth < 600);
     window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleResize);
     handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
+    handleResize();
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   useEffect(() => {
@@ -41,8 +49,29 @@ export default function Header() {
         </button>
 
         <div className="justify-self-center">
-          <Link href="/" className="font-[family-name:var(--font-display)] text-[22px] mobile:text-[28px] font-normal tracking-[0.12em] mobile:tracking-[0.15em] text-white transition-opacity duration-300 hover:opacity-70" onClick={closeSidebar}>
-            DL
+          <Link
+            href="/"
+            id="header-logo"
+            className={`block relative transition-all duration-500 hover:opacity-70 ${
+              isScrolled || isMobile ? "w-[44px] h-[44px]" : "w-[120px] h-[120px]"
+            }`}
+            style={{ transitionTimingFunction: "var(--ease)" }}
+            onClick={closeSidebar}
+          >
+            <Image
+              src="/dl_logo_wei%C3%9F.png"
+              alt="DL Logo"
+              fill
+              className={`object-contain transition-opacity duration-500 ${isScrolled || isMobile ? "opacity-0" : "opacity-100"}`}
+              priority
+            />
+            <Image
+              src="/dl_logo_wei%C3%9F_ohne_text.png"
+              alt="DL Logo"
+              fill
+              className={`object-contain transition-opacity duration-500 ${isScrolled || isMobile ? "opacity-100" : "opacity-0"}`}
+              priority
+            />
           </Link>
         </div>
 
