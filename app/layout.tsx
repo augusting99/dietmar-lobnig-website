@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 const sevenDays = localFont({
-  src: "../public/7days.ttf",
+  src: "../public/fonts/7days.ttf",
   variable: "--font-display",
 });
 
