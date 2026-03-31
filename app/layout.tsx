@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import EntranceLoader from "./components/EntranceLoader";
+import { LocalBusinessJsonLd } from "./components/JsonLd";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -38,6 +39,10 @@ export const metadata: Metadata = {
     locale: "de_AT",
     type: "website",
   },
+  icons: {
+    icon: "/dl_logo_wei%C3%9F_ohne_text.png",
+    apple: "/dl_logo_wei%C3%9F_ohne_text.png",
+  },
   robots: {
     index: true,
     follow: true,
@@ -52,6 +57,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body className={`${inter.variable} ${sevenDays.variable}`}>
+        <LocalBusinessJsonLd />
         <EntranceLoader />
         {children}
       </body>

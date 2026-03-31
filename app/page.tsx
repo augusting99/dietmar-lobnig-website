@@ -10,11 +10,13 @@ import VideoCTA from "./components/sections/VideoCTA";
 import ContactSection from "./components/sections/ContactSection";
 import Footer from "./components/sections/Footer";
 import ScrollGradient from "./components/ScrollGradient";
+import { VehicleListJsonLd } from "./components/JsonLd";
 
 
 export default function Home() {
   return (
     <div className="bg-bg-primary relative">
+      <VehicleListJsonLd />
       <ScrollGradient />
       <div className="relative z-[1]">
       <Header />
