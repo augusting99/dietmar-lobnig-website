@@ -6,19 +6,19 @@ const milestones = [
   {
     year: "1996",
     title: "Der Anfang",
-    image: "/images/behind.jpeg",
+    image: "/images/history_step1.jpeg",
     desc: "Dietmar Lobnig startet mit einer Handvoll Fahrzeugen und einem Versprechen: Ehrlichkeit vor Profit.",
   },
   {
     year: "2005",
     title: "Siriusstraße 13",
-    image: "/images/hero.jpeg",
+    image: "/images/sls_behind.jpeg",
     desc: "Der eigene Standort in Klagenfurt wird bezogen — ein fixer Anlaufpunkt für die wachsende Stammkundschaft.",
   },
   {
     year: "Heute",
     title: "Über 3.200 Kunden",
-    image: "/images/g_class.jpeg",
+    image: "/images/history_step3.jpeg",
     desc: "150+ Fahrzeuge im Jahr, persönlich ausgewählt. Kein Konzern, kein Callcenter — immer noch derselbe Handschlag.",
   },
 ];

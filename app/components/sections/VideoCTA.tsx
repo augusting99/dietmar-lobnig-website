@@ -20,8 +20,8 @@ export default function VideoCTA() {
   return (
     <div ref={ref} className="relative h-[80vh] min-h-[500px] flex items-center justify-center text-center overflow-hidden">
       {/* Background image */}
-      <div className="absolute inset-0 bg-[url('/images/g_class.jpeg')] bg-cover bg-center" style={{ filter: "grayscale(40%) brightness(0.3) contrast(1.1)" }} />
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-[url('/images/green_audi_dark.jpeg')] bg-cover bg-center" style={{ filter: "grayscale(40%)  contrast(1.1)" }} />
+      <div className="absolute inset-0 bg-black/10" />
 
       {/* Content */}
       <div

@@ -76,7 +76,7 @@ export default function HighlightsGrid() {
           <div className="grid grid-cols-1 tablet:grid-cols-12 gap-4 tablet:min-h-[520px]">
             <div className="tablet:col-span-7 h-[280px] tablet:h-auto">
               <Card
-                image="/images/behind.jpeg"
+                image="/images/g_class_front_right.jpeg"
                 alt="Ankauf"
                 label="Ankauf"
                 title="Wir finden das perfekte Fahrzeug für Sie"
@@ -84,14 +84,14 @@ export default function HighlightsGrid() {
             </div>
             <div className="tablet:col-span-5 flex flex-col gap-4">
               <Card
-                image="/images/green_audi.jpeg"
+                image="/images/bmw_car_check_ai_generated.png"
                 alt="Prüfung"
                 label="Prüfung"
                 title="Technik, Historie, Zustand — nichts wird ausgelassen"
                 height="h-[280px] tablet:h-1/2"
               />
               <Card
-                image="/images/black_mercedes.jpeg"
+                image="/images/interior_black.jpeg"
                 alt="Aufbereitung"
                 label="Aufbereitung"
                 title="Professionell aufbereitet, innen wie außen"
@@ -104,14 +104,14 @@ export default function HighlightsGrid() {
           <div className="grid grid-cols-1 tablet:grid-cols-12 gap-4 tablet:min-h-[520px]">
             <div className="tablet:col-span-5 flex flex-col gap-4">
               <Card
-                image="/images/g_class.jpeg"
+                image="/images/consultation.png"
                 alt="Beratung"
                 label="Beratung"
                 title="Ehrliche Beratung — auch wenn wir mal Nein sagen"
                 height="h-[280px] tablet:h-1/2"
               />
               <Card
-                image="/images/hero.jpeg"
+                image="/images/car_financing.png"
                 alt="Finanzierung"
                 label="Finanzierung"
                 title="Kredit, Leasing oder bar — flexibel und fair kalkuliert"
@@ -120,7 +120,7 @@ export default function HighlightsGrid() {
             </div>
             <div className="tablet:col-span-7 h-[280px] tablet:h-auto">
               <Card
-                image="/images/black_mercedes.jpeg"
+                image="/images/shaking_hands.png"
                 alt="Übergabe"
                 label="Verkauf"
                 title="Handschlag, Schlüssel, Ihr Auto — seit 1996 so gemacht"
