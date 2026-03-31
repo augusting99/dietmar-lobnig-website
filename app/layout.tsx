@@ -40,8 +40,11 @@ export const metadata: Metadata = {
     type: "website",
   },
   icons: {
-    icon: "/dl_logo_wei%C3%9F_ohne_text.png",
-    apple: "/dl_logo_wei%C3%9F_ohne_text.png",
+    icon: [
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/favicon-512.png",
   },
   robots: {
     index: true,
