@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <div className="relative h-dvh min-h-[600px] flex items-start justify-center overflow-hidden">
       <div className="absolute inset-0 animate-[heroZoom_20s_ease-out_forwards]">
-        <Image src="/images/hero.jpeg" alt="Hero" fill sizes="100vw" priority className="object-cover " />
+        <Image src="/images/hero.jpeg" alt="Mercedes-AMG GT Showroom — Dietmar Lobnig GmbH Klagenfurt" fill sizes="100vw" priority className="object-cover " />
       </div>
       <div className="absolute inset-0" style={{ background: "linear-gradient(0deg, rgba(8,8,8,0.85) 0%, rgba(8,8,8,0.4) 50%, rgba(8,8,8,0.2) 100%)" }} />
       <div className="relative z-[2] w-full text-center px-7 tablet:px-15" style={{ paddingTop: "25vh" }}>

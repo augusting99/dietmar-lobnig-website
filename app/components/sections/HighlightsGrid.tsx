@@ -77,7 +77,7 @@ export default function HighlightsGrid() {
             <div className="tablet:col-span-7 h-[280px] tablet:h-auto">
               <Card
                 image="/images/g_class_front_right.jpeg"
-                alt="Ankauf"
+                alt="Mercedes G-Klasse Frontansicht — Fahrzeugankauf bei Dietmar Lobnig"
                 label="Ankauf"
                 title="Wir finden das perfekte Fahrzeug für Sie"
               />
@@ -85,14 +85,14 @@ export default function HighlightsGrid() {
             <div className="tablet:col-span-5 flex flex-col gap-4">
               <Card
                 image="/images/bmw_car_check_ai_generated.png"
-                alt="Prüfung"
+                alt="BMW Fahrzeugprüfung — technische Kontrolle und Zustandsbewertung"
                 label="Prüfung"
                 title="Technik, Historie, Zustand — nichts wird ausgelassen"
                 height="h-[280px] tablet:h-1/2"
               />
               <Card
                 image="/images/interior_black.jpeg"
-                alt="Aufbereitung"
+                alt="Schwarzes Fahrzeuginterieur — professionelle Aufbereitung innen und außen"
                 label="Aufbereitung"
                 title="Professionell aufbereitet, innen wie außen"
                 height="h-[280px] tablet:h-1/2"
@@ -105,14 +105,14 @@ export default function HighlightsGrid() {
             <div className="tablet:col-span-5 flex flex-col gap-4">
               <Card
                 image="/images/consultation.png"
-                alt="Beratung"
+                alt="Persönliche Beratung beim Autokauf — ehrlich und kompetent"
                 label="Beratung"
                 title="Ehrliche Beratung — auch wenn wir mal Nein sagen"
                 height="h-[280px] tablet:h-1/2"
               />
               <Card
                 image="/images/car_financing.png"
-                alt="Finanzierung"
+                alt="Fahrzeugfinanzierung — Kredit, Leasing oder Barzahlung"
                 label="Finanzierung"
                 title="Kredit, Leasing oder bar — flexibel und fair kalkuliert"
                 height="h-[280px] tablet:h-1/2"
@@ -121,7 +121,7 @@ export default function HighlightsGrid() {
             <div className="tablet:col-span-7 h-[280px] tablet:h-auto">
               <Card
                 image="/images/shaking_hands.png"
-                alt="Übergabe"
+                alt="Handschlag bei der Fahrzeugübergabe — Vertrauen seit 1996"
                 label="Verkauf"
                 title="Handschlag, Schlüssel, Ihr Auto — seit 1996 so gemacht"
               />

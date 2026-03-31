@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="grid grid-cols-[2fr_1fr_1fr_1fr] max-tablet:grid-cols-2 max-mobile:grid-cols-1 gap-12 max-w-[1280px] mx-auto mb-15">
         <div>
           <div className="relative w-[140px] h-[140px] mb-4">
-            <Image src="/dl_logo_wei%C3%9F.png" alt="DL Logo" fill className="object-contain" />
+            <Image src="/dl_logo_wei%C3%9F.png" alt="Dietmar Lobnig GmbH Logo — Gebrauchtwagen Klagenfurt" fill className="object-contain" />
           </div>
           <p className="text-sm text-text-muted leading-[1.8] max-w-[320px]">Dietmar Lobnig GmbH — Ihr verlässlicher Partner für Gebrauchtwagen in Klagenfurt seit 1996.</p>
         </div>

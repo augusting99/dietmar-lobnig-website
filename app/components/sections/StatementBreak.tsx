@@ -18,7 +18,7 @@ export default function StatementBreak({
     <div className={`relative ${image ? "h-[60vh] min-h-[400px]" : "py-32 max-tablet:py-20"} flex items-center justify-center text-center overflow-hidden`}>
       {image && (
         <>
-          <Image src={image} alt="" fill className="object-cover" style={{ filter: "grayscale(40%) brightness(0.4) contrast(1.1)" }} />
+          <Image src={image} alt="Fahrzeug im Showroom von hinten — persönlich ausgewählt und geprüft" fill className="object-cover" style={{ filter: "grayscale(40%) brightness(0.4) contrast(1.1)" }} />
           <div className="absolute inset-0 bg-black/40" />
         </>
       )}

@@ -71,7 +71,7 @@ export default function EntranceLoader() {
       >
         <Image
           src="/dl_logo_wei%C3%9F.png"
-          alt="DL Logo"
+          alt="Dietmar Lobnig GmbH Logo"
           fill
           className="object-contain"
           priority

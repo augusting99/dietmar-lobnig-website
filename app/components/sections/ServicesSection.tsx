@@ -7,18 +7,21 @@ const milestones = [
     year: "1996",
     title: "Der Anfang",
     image: "/images/history_step1.jpeg",
+    alt: "Dietmar Lobnig in den Anfangsjahren — Autohandel seit 1996",
     desc: "Dietmar Lobnig startet mit einer Handvoll Fahrzeugen und einem Versprechen: Ehrlichkeit vor Profit.",
   },
   {
     year: "2005",
     title: "Siriusstraße 13",
     image: "/images/sls_behind.jpeg",
+    alt: "Mercedes SLS AMG am Standort Siriusstraße 13 in Klagenfurt",
     desc: "Der eigene Standort in Klagenfurt wird bezogen — ein fixer Anlaufpunkt für die wachsende Stammkundschaft.",
   },
   {
     year: "Heute",
     title: "Über 3.200 Kunden",
     image: "/images/history_step3.jpeg",
+    alt: "Dietmar Lobnig heute — über 3.200 zufriedene Kunden und 150+ Fahrzeuge pro Jahr",
     desc: "150+ Fahrzeuge im Jahr, persönlich ausgewählt. Kein Konzern, kein Callcenter — immer noch derselbe Handschlag.",
   },
 ];
@@ -42,7 +45,7 @@ export default function ServicesSection() {
               <div className={`relative aspect-[16/10] overflow-hidden ${i % 2 !== 0 ? "tablet:order-2" : ""}`}>
                 <Image
                   src={m.image}
-                  alt={m.title}
+                  alt={m.alt}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
