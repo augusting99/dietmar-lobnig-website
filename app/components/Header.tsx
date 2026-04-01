@@ -106,6 +106,7 @@ export default function Header() {
             {[
               { href: "/", label: "Home" },
               { href: "/fahrzeuge", label: "Fahrzeuge" },
+              { href: "/#ankauf", label: "Ankauf & Verkauf" },
               { href: "/#history", label: "Über uns" },
               { href: "/#contact", label: "Kontakt" },
             ].map((item) => (

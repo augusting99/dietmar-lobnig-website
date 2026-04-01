@@ -59,7 +59,7 @@ export default function HighlightsGrid() {
   const isVisible = useVisible(sectionRef);
 
   return (
-    <section ref={sectionRef} className="py-40 max-tablet:py-24 px-10 max-tablet:px-5">
+    <section ref={sectionRef} id="ankauf" className="py-40 max-tablet:py-24 px-10 max-tablet:px-5">
       <div className="max-w-[1280px] mx-auto">
         <div className={`mb-4 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <span className="block text-[10px] font-semibold tracking-[4px] uppercase text-text-muted mb-4">Vom Ankauf zum Verkauf</span>

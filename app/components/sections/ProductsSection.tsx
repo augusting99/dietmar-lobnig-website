@@ -24,7 +24,7 @@ const featured = [
   {
     brand: "Volkswagen",
     name: "Golf 8 GTI",
-    image: "/images/black_mercedes.jpeg",
+    image: "/images/sls_behind.jpeg",
     details: [
       { label: "Leistung", value: "245 PS" },
       { label: "Antrieb", value: "Benzin" },
